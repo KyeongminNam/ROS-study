@@ -12,6 +12,7 @@ alias cwbs='cd ~/ros2_ws && colcon build && . install/setup.bash'    # cd to ws 
 ```
 -----
 ## Tutorial 1 : Creating a workspace
+https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
 #### 1. source ros2 environment
 ` source /opt/ros/foxy/setup.bash `
 
@@ -25,6 +26,7 @@ alias cwbs='cd ~/ros2_ws && colcon build && . install/setup.bash'    # cd to ws 
 
 -----
 ## Tutorial 2 : Creating a package (C)
+https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 
 -----
 ## ROS structure and build system
@@ -38,3 +40,4 @@ https://enssionaut.com/board_robotics/421
 
 -----
 ## ROS Communication 3 : action comm (action server, action client)
+https://design.ros2.org/articles/actions.html
