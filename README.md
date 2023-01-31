@@ -1,8 +1,8 @@
 # ROS-study
-scirobotics review paper for ros2 : https://www.science.org/doi/10.1126/scirobotics.abm6074
-example codes: https://github.com/ros2/examples/tree/rolling/rclcpp
+scirobotics review paper for ros2 : https://www.science.org/doi/10.1126/scirobotics.abm6074  
+example codes: https://github.com/ros2/examples/tree/rolling/rclcpp  
 
-Shortcut Setup
+shortcut setup (add to ~/.bashrc)
 ```
 alias cw='cd ~/ros2_ws'                                              # cd to ws
 alias cs='cd ~/ros2_ws/src'                                          # cd to src
