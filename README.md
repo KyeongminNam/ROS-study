@@ -125,3 +125,14 @@ https://kasimov.korea.ac.kr/dokuwiki/doku.php/activity/public/2021/ros/2
 -----
 ### 3. Action (action server, action client)
 https://design.ros2.org/articles/actions.html
+**Goal States**
+<p align="center"><img src="https://user-images.githubusercontent.com/94614923/215743971-cf1499ea-c6dd-4e1a-b938-212c1de705a5.png" height=300></p>
+
+- active states
+  - ACCEPTED, EXECUTING, CANCELING
+- terminal states
+  - SUCCEEDED, ABORTED, CANCLED
+- state transitions by action server
+  - exetuce, succeed, abort, canceled
+- state transitions by action client
+  - send_goal, cancel_goal
