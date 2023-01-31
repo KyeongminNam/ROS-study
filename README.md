@@ -1,5 +1,5 @@
 # ROS-study
-
+scirobotics review paper for ros2 : https://www.science.org/doi/10.1126/scirobotics.abm6074
 example codes: https://github.com/ros2/examples/tree/rolling/rclcpp
 
 Shortcut Setup
