@@ -95,7 +95,8 @@ ROS는 ROS가 구동되는 시스템끼리 데이터를 주고 받을 수 있다
 -----
 ## ROS Communication
 https://kasimov.korea.ac.kr/dokuwiki/doku.php/activity/public/2021/ros/2
-![image](https://user-images.githubusercontent.com/94614923/215737076-5f3a5cdc-59f3-4664-8627-e18cf0e47c39.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/94614923/215737076-5f3a5cdc-59f3-4664-8627-e18cf0e47c39.png" height=400></p>
+
 | type | 동기 | 방향| 사용|
 |---|---|---|---|
 | Topic | 비동기 | 단방향| 지속적으로 발생하는 센서 데이터에 적합. 1:n, n:1, n:n 통신 가능.|
@@ -107,16 +108,15 @@ https://kasimov.korea.ac.kr/dokuwiki/doku.php/activity/public/2021/ros/2
 또한 주고받는 메세지 값을 보관할 수 있어 차후에 이를 분석하거나, 그대로 재현하여 시뮬레이션에 적용가능하다.
 
 **통신과정**
-<p align="center"><img src="https://user-images.githubusercontent.com/94614923/215739939-bc8852f5-d618-4c09-be75-4cc4938a6244.png" height=400></p>
-| step|command|
-|---|---|
-|1. 마스터 구동 | `roscore`|
-|2. pub/sub 노드 구동 및 마스터에 노드 정보 전달 | `rosrun <package name> <node name>`|
-|3. 마스터가 sub에게 pub정보를 전달| |
-|4. sub가 pub에게 접속 요청| |
-|5. pub가 sub에게 접속 응답| |
-|6. pub가 sub에게 TCP/IP 방식(TCPROS) 접속| |
-|7. pub가 sub에게 메세지 전달| |
+<p align="center"><img src="https://user-images.githubusercontent.com/94614923/215743037-43a77078-e11d-4c48-8069-b29cd88deafb.png" height=300></p>
+
+1. 마스터 구동 
+2. pub/sub 노드 구동 및 마스터에 노드 정보 전달 
+3. 마스터가 sub에게 pub정보를 전달
+4. sub가 pub에게 접속 요청
+5. pub가 sub에게 접속 응답
+6. pub가 sub에게 TCP/IP 방식(TCPROS) 접속
+7. pub가 sub에게 메세지 전달
 
 -----
 ### 2. Service (server, client)
