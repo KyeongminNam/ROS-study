@@ -107,7 +107,7 @@ https://kasimov.korea.ac.kr/dokuwiki/doku.php/activity/public/2021/ros/2
 토픽은 실시간으로 전송되는 단방향성 메시지이다. 퍼블리셔나 서브스크라이버가 중지하지 않는 이상 메시지를 계속 보낸다. 즉, 어떤 값을 지속적으로 읽고 보내야할 때 편리하다.  
 또한 주고받는 메세지 값을 보관할 수 있어 차후에 이를 분석하거나, 그대로 재현하여 시뮬레이션에 적용가능하다.
 
-**통신과정**
+**1.1 통신과정**
 <p align="center"><img src="https://user-images.githubusercontent.com/94614923/215743037-43a77078-e11d-4c48-8069-b29cd88deafb.png" height=300></p>
 
 1. 마스터 구동 
@@ -117,6 +117,12 @@ https://kasimov.korea.ac.kr/dokuwiki/doku.php/activity/public/2021/ros/2
 5. pub가 sub에게 접속 응답
 6. pub가 sub에게 TCP/IP 방식(TCPROS) 접속
 7. pub가 sub에게 메세지 전달
+
+**1.2 pub/sub node 작성**
+package.xml:
+CMakeLists.txt:
+publisher node(C++):
+subscriber node(C++):
 
 -----
 ### 2. Service (server, client)
