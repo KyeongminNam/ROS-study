@@ -118,11 +118,11 @@ https://kasimov.korea.ac.kr/dokuwiki/doku.php/activity/public/2021/ros/2
 6. pub가 sub에게 TCP/IP 방식(TCPROS) 접속
 7. pub가 sub에게 메세지 전달
 
-**1.2 pub/sub node 작성**
-package.xml:
-CMakeLists.txt:
-publisher node(C++):
-subscriber node(C++):
+**1.2 publisher/subscriber example**  
+- [package.xml](https://github.com/KyeongminNam/ROS-study/blob/main/communication%20example/1.%20message/package.xml)    
+- [CMakeLists.txt](https://github.com/KyeongminNam/ROS-study/blob/main/communication%20example/1.%20message/CMakeLists.txt)    
+- [publisher node(C++)](https://github.com/KyeongminNam/ROS-study/blob/main/communication%20example/1.%20message/src/publisher_node.cpp)  
+- [subscriber node(C++)](https://github.com/KyeongminNam/ROS-study/blob/main/communication%20example/1.%20message/src/subscriber_node.cpp)  
 
 -----
 ### 2. Service (server, client)
