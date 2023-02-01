@@ -71,6 +71,10 @@ PC - HW connected by UART, TCP/IP, USB,...
 HW - actuator/sensors connected by UART, I2C, SPI, PWM, Analog,...
 ROS는 ROS가 구동되는 시스템끼리 데이터를 주고 받을 수 있다. 주로 TCP/IP 프로토콜을 통해 데이터가 전달된다.
 
+<p align="center"><img src="https://user-images.githubusercontent.com/94614923/216119802-753578e8-52a9-4130-9d14-1f75fb77a4e6.png" height=200></p>
+
+
+
 **Term**
 - package: 하나 이상의 노드, 노드 실행에 필요한 정보를 묶어 놓은 것.
 - metapackage: package의 묶음
